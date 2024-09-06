@@ -70,7 +70,7 @@ function pesquisar(){
             <div class="resultado">
               <h2>${dado.titulo}</h2>
               <p class="descricao-meta">${dado.sinopse}</p>
-              <p class="descricao-meta">Classificação Etária: ${dado.classificacaoEtaria}/p>
+              <p class="descricao-meta">Classificação Etária: ${dado.classificacaoEtaria}</p>
               <p class="descricao-meta">Gênero: ${dado.genero}</p>
               <a href=${dado.informacoes} target="_blank">Para mais informações</a>
             </div>
