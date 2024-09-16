@@ -51,7 +51,7 @@ function pesquisar(){
   // 5. Verifica se o usuário digitou algo no campo de pesquisa. Se não, exibe uma mensagem de erro.
   if(!inputPesquisa || inputPesquisa == " "){
     section.innerHTML = '<p class="atencao">Nada foi encontrado. Digite algo para pesquisar</p>'
-    return // Interrompe a função se não houver termo de pesquisa.
+    return// Interrompe a função se não houver termo de pesquisa.
   }
 
   // 6. Itera sobre cada anime no array de animes.
@@ -76,12 +76,12 @@ function pesquisar(){
             </div>
         </div>
     `
-    
   }
   // 10. Verifica se foram encontrados resultados. Se não, exibe uma mensagem informando que nada foi encontrado.
   if(!resultados){
-    resultados = "<p class='atencao'>Nada foi encontrado</p>"
+    section.innerHTML = "<p class='atencao'>Nada foi encontrado</p>"
   }
+  
   // 11. Atualiza o conteúdo da seção de resultados com os resultados da pesquisa.
   section.innerHTML = resultados
 }}

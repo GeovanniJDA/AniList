@@ -99,7 +99,7 @@ const animes = [
   {
     titulo: "Freiren",
     sinopse:
-      "Freiren é um anime de comédia e fantasia que acompanha a vida de Freiren, uma jovem guerreira que, após salvar um reino, é recompensada com uma vida pacata. No entanto, seu passado e novas aventuras a encontram.",
+      "Freiren é um anime de comédia e fantasia que acompanha a vida de freiren, uma jovem guerreira que, após salvar um reino, é recompensada com uma vida pacata. No entanto, seu passado e novas aventuras a encontram.",
     genero: "Comédia, Fantasia, Aventura",
     classificacaoEtaria: "10+",
     informacoes: "https://en.wikipedia.org/wiki/Frieren",
