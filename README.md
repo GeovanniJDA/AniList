@@ -17,7 +17,7 @@ O AniList é um aplicativo web criado para os amantes de animes. Com ele, você 
 **Tecnologias utilizadas:**
 
 * **Frontend:** HTML, CSS
-* **Backend:** Node.js
+* **Backend:** Javascript
 
 **Contribuindo para o projeto:**
 
