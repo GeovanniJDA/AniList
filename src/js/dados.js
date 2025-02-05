@@ -1,5 +1,3 @@
-// As primeiras linhas declaram variáveis para armazenar os caminhos das imagens dos animes. Cada variável corresponde ao nome do anime e o valor é o caminho relativo da imagem.
-
 const imgBlackClover = "/src/img/blackClover.jpg";
 const imgFrieren = "/src/img/frieren.png";
 const imgJujutsuKaisen = "/src/img/JujutsuKaisen.jpg";
@@ -7,7 +5,6 @@ const imgWistoria = "/src/img/Wistoria.jpg";
 const imgNigeJouzu = "/src/img/NigeJouzu.jpg";
 const imgIsekaiShikkaku = "/src/img/IsekaiShikkaku.jpg";
 
-// Criando arrays com as tags de cada anime
 const tagsBlackClover = [
   "shonen",
   "fantasia",
@@ -75,7 +72,6 @@ const tagsIsekaiShikkaku = [
   "relacionamento"
 ];
 
-// Convertendo os arrays em strings, separadas por vírgulas
 const stringTagsBlackClover = tagsBlackClover.join(",");
 const stringTagsFrieren = tagsFrieren.join(",");
 const stringTagsJujutsuKaisen = tagsJujutsuKaisen.join(",");
@@ -84,7 +80,6 @@ const stringTagsNigeJouzu = tagsNigeJouzu.join(",");
 const stringTagsIsekaiShikkaku = tagsIsekaiShikkaku.join(",");
 
 
-//Criação do Array de Animes
 const animes = [
   {
     titulo: "Black Clover",
@@ -140,7 +135,7 @@ const animes = [
     sinopse: "Um jovem que se considera inútil é invocado para outro mundo, mas logo descobre que seus poderes são completamente inúteis para o mundo mágico. Com humor e autodepreciação, ele tenta encontrar seu lugar nesse novo mundo.",
     genero: "Comédia, Fantasia, Isekai",
     classificacaoEtaria: "13+",
-    informacoes: "https://en.wikipedia.org/wiki/No_Longer_Allowed_in_Another_World", // Substitua por um link real
+    informacoes: "https://en.wikipedia.org/wiki/No_Longer_Allowed_in_Another_World",
     imagem: imgIsekaiShikkaku,
     tags: stringTagsIsekaiShikkaku,
   }
